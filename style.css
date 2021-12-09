@@ -383,6 +383,7 @@ h1{ /* HEADERS FOR WORK PAGES */
         padding-left: 200px;
         padding-bottom: 10px;
 }
+}
 
 /* PARALLAX VIEW */
 @media only screen and (max-device-width: 1366px) {
