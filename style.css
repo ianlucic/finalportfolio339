@@ -391,6 +391,13 @@ h1{ /* HEADERS FOR WORK PAGES */
     }
 }
 
+@media screen and (prefers-reduced-motion) { 
+    .maincontainer {
+        -webkit-transition: 0 !important;
+        -o-transition: 0 !important;
+        transition: 0 !important;
+    }
+}
 
 /* GENERAL FOOTER */
 footer{
