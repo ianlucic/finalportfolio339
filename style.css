@@ -175,7 +175,7 @@ h1{ /* HEADERS FOR WORK PAGES */
 }
 
 .text{ /* HEADER TEXT FOR WORK PAGES */
-    font-size: medium;
+    font-size: 16px;
     text-align: center;
     padding-right: 200px;
     padding-left: 200px;
@@ -255,7 +255,7 @@ h1{ /* HEADERS FOR WORK PAGES */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: large;
+    font-size: 22px;
     border-style: solid;
     padding: 10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 0.8)
@@ -271,7 +271,7 @@ h1{ /* HEADERS FOR WORK PAGES */
 }
 
 .text{ /* HEADER TEXT FOR WORK PAGES */
-    font-size: medium;
+    font-size: 18px;
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
@@ -307,11 +307,11 @@ h1{ /* HEADERS FOR WORK PAGES */
 }
 
 .centertext{
-    font-size: x-large;
+    font-size: 22px;
 }
 
 .lowcentertext{
-    font-size: x-large;
+    font-size: 22px;
 }
 
 .row { /* GRID */
@@ -340,7 +340,7 @@ h1{ /* HEADERS FOR WORK PAGES */
 }
 
 .text{ /* HEADER TEXT FOR WORK PAGES */
-    font-size: medium;
+    font-size: 17px;
     text-align: center;
     padding-right: 75px;
     padding-left: 75px;
@@ -371,10 +371,10 @@ h1{ /* HEADERS FOR WORK PAGES */
 @media screen and (min-width: 1025px) {
 
     .centertext{
-        font-size: xx-large;
+        font-size: 24px;
     }
     .lowcentertext{
-        font-size: xx-large;
+        font-size: 24px;
     }
 }
 
