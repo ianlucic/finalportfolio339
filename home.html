@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="css" href="html5reset.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	<title>Home</title>
+</head>
+
+<ul class="skip-links"> <!-- SKIPS -->
+  <li><a href="#nav">Skip to Navigation</a></li>
+  <li><a href="#main">Skip to the Main Content</a></li>
+</ul>
+
+<header> <!-- NAV BAR -->
+    <div class="topnav" id="nav" id="myTopnav">
+        <a href="home.html" class="active">Home</a>
+        <a href="photography.html">Photography Work</a>
+        <a href="photoshop.html">Photoshop Work</a>
+                <a href="cssedits.html">CSS Edits Work</a>
+                <!-- sticky help?-->
+        <img src="imgs/IL_logo.png" alt="Ian Lucic Logo" class="img_logo" style="position: absolute; right: 15px; top: 5px; width: 50px;height:50px;" id = "logo"> 
+    </div>
+</header> <!-- NAV BAR END -->
+
+<parallax> <!-- PARALLAX -->
+    <style> /* PARALLAX IMAGE */
+    .parallax {
+      /* The image used */
+    background-image: url(imgs/freshman/LucicI_BestLongExp.jpg);
+    
+      /* Set a specific height */
+    min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+
+    <div class="centertext"> Hey I'm Ian! I'm a UX Design student at the University of Michigan, who is passionate about design & photography.</div>
+
+    <div class="parallax"></div>
+
+    <div style="height:600px;background-color:rgb(45, 45, 48)">
+
+        <div class="rowhome" id="main">
+          <h1>CONTACT ME</h1>
+
+          <div class="maincontainer">
+
+          <div class="thecard">
+
+          <div class="thefront">
+            <img src="imgs/IanLucic2.jpg" class="maincontainer">
+          </div>
+          
+
+          <div class="theback">
+            
+          <h3>ADDITIONAL CONTACT INFO</h3>
+          <p>Phone: (513) 497-9922</p>
+          <p>Linkedin: ianlucic</p>
+          <p>Behance: ianlucic</p>
+            
+          </div>
+        </div>
+        </div>
+
+        <div id="main">
+          <div class="text"> <!--PHOTO HEADER BODY -->
+              <p>Currently, I am a undergraduate obtaining a BS in Information with a focus on User Experience Design from the University of Michigan - School of Information, who has knowledge in graphic design, UX/UI design, psychology, sociology, marketing, and customer service.</p>
+          </div>
+          </div>
+
+          <form action="https://formspree.io/f/xeqnqqvw" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email Adresss:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message"><br><br>
+            <input type="submit" value="Submit">
+            <p>ㅤ</p> <!-- PADDING FIX -->
+            <p>ㅤ</p> <!-- PADDING FIX -->
+        </div>
+        </div>
+</div>
+</parallax> <!-- PARALLAX END -->
+
+<footer> <!-- FOOTER -->
+	<p>Ian M Lucic &copy; 2021 | SI 339 - Final Project</p>
+</footer>
+</body>
+</html>
+
+
