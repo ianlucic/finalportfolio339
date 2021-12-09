@@ -79,7 +79,7 @@ body > header img {
 /* CENTERED TEXT */
 .centertext {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -371,7 +371,7 @@ h1{ /* HEADERS FOR WORK PAGES */
 @media screen and (min-width: 1025px) {
 
     .centertext{
-        font-size: 24px;
+        font-size: 36px;
     }
     .lowcentertext{
         font-size: 24px;
